@@ -1,0 +1,110 @@
+/*RESETEO DE ESTILOS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+    background-color: rgba(234, 234, 234, 0.953) ;
+    width: 100%
+}
+
+header nav ul{
+    list-style: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+ul li{
+    display: inline-block;
+}
+
+/*EDICION BANNER*/
+.portada .portadaimg{
+    width: 100%;
+    height:100vh;
+}
+
+main{
+    margin: 0 5% 0 5%;
+}
+
+.info_portada{
+    font-size: 18px;
+    text-align: justify;
+    font-family:'Red Hat Display', sans-serif;
+    padding: 2%;
+}
+
+.boton_comprar {
+    font-family:'Red Hat Display', sans-serif;
+    padding: 3%;
+    border: none;
+    background-color: #CFA6AA;
+} 
+
+
+/*CATALOGO DE PRODUCTOS*/
+.catalogo_productos{
+    display: inline-block;
+    padding: 1%;
+    justify-content: baseline;
+    }
+
+.florero_nigiri {
+    width: 300px;
+    height: 350px;
+    border-radius: 3%;
+    padding: 2%;
+}
+.maceta_sashimi {
+    width: 300px;
+    height: 350px;
+    border-radius: 3%;
+    padding: 2%;
+}
+.florero_hamachi{
+    width: 300px;
+    height: 350px;
+    border-radius: 3%;
+    padding: 2%;
+}
+.florero_ikura{
+    width: 300px;
+    height: 350px;
+    border-radius: 3%;
+    padding: 2%;
+}
+.nombres_productos{
+    display: flex;
+    justify-content: space-evenly
+
+}
+
+/*FOOTER*/
+footer{
+    background-color: #CFA6AA;
+    margin-top: 3%;
+    padding: 3rem;
+    
+}
+/*CAJA DE LA IZQUIERDA*/
+.caja_izquierda{
+    color: white;
+    padding: 1%;
+}
+
+.info_pagina{
+    display: inline-block;
+}
+
+/*CAJA DERECHA*/
+.iconos {
+    width: 10%;
+    height: 10%;
+}
+.caja_derecha{
+    color: white;
+}
