@@ -52,7 +52,7 @@ header nav ul a {
 
 .foto_producto{
     width: 100%;
-    height: 700px;
+    height: 700px;    
     display: flex;
     justify-content: center;
     margin-bottom: 90px;
@@ -115,7 +115,7 @@ font-family: 'Salsa', cursive;
     justify-content: baseline;
     list-style: none;
     text-align: center;
-    margin: 0;
+    margin-right: 5px;
     }
 
 .nombres.productos {
@@ -125,28 +125,28 @@ padding: 0%;
 }
 
     .florero_nigiri {
-        width: 300px;
-        height: 350px;
-        border-radius: 7%;
-        padding: 2%;
+        width: 250px;
+        height: 300px;
+        border-radius: 3%;
+        padding: 1%;
     }
     .maceta_sashimi {
-        width: 300px;
-        height: 350px;
-        border-radius: 7%;
-        padding: 2%;
+        width: 250px;
+        height: 300px;
+        border-radius: 3%;
+        padding: 1%;
     }
     .florero_hamachi{
-        width: 300px;
-        height: 350px;
-        border-radius: 7%;
-        padding: 2%;
+        width: 250px;
+        height: 300px;
+        border-radius: 3%;
+        padding: 1%;
     }
     .florero_ikura{
-        width: 300px;
-        height: 350px;
-        border-radius: 7%;
-        padding: 2%;
+        width: 250px;
+        height: 300px;
+        border-radius: 3%;
+        padding: 1%;
     }
 
 /*NOSOTROS*/
