@@ -83,10 +83,10 @@ main{
 .titulo_portada { 
     font-size: 26px;
     font-family: 'Lobster Two', cursive;
-font-family: 'Outfit', sans-serif;
-font-family: 'Prata', serif;
-font-family: 'Red Hat Display', sans-serif;
-font-family: 'Salsa', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Salsa', cursive;
     display: flex;
     justify-content: center;
     margin-top: 680px;
@@ -176,71 +176,69 @@ padding: 0%;
 }
 
 /* CONTACTO */
-
 .container{
     margin-top: 60px;
 }
 
 
 /*FAQ*/
-
-
 .faq-heading {
-  font-family: Lato;   
-  font-weight: 400;
-  font-size: 16px;
-  text-indent: 20px;
-  color: #333;
-  margin-top: 12px;
+font-family: Lato;   
+font-weight: 400;
+font-size: 16px;
+text-indent: 20px;
+color: #333;
+margin-top: 12px;
 }
 
 .faq-text {
-  font-family: lato;   
-  font-weight: 400;
-  color: #474747;
-  width:95%;
-  padding-left:20px;
-  margin-bottom:30px;
+font-family: lato;   
+font-weight: 400;
+color: #474747;
+width:95%;
+padding-left:20px;
+margin-bottom:30px;
 }
 
 .faq {
-  width: 800px;
-  margin: 0 auto;
-  background: white;
-  border-radius: 15px;
-  position: relative;
-  border: 1px solid #E1E1E1;
-  margin-top: 50px;
+width: 800px;
+margin: 0 auto;
+background: white;
+border-radius: 15px;
+position: relative;
+border: 1px solid #E1E1E1;
+margin-top: 50px;
 }
+
 .faq label {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  height: 56px;
-  padding-top:1px;
-  border-bottom: 1px solid #E1E1E1;
+display: block;
+position: relative;
+overflow: hidden;
+cursor: pointer;
+height: 56px;
+padding-top:1px;
+border-bottom: 1px solid #E1E1E1;
 }
 
 .faq input[type="checkbox"] {
-  display: none;
+display: none;
 }
 
 .faq .faq-arrow {
-  width: 6px;
-  height: 6px;
-  border-top: 2px solid rgba(95, 6, 73, 0.33);
-  border-right: 2px solid rgba(0, 0, 0, 0.33);
-  float: right;
-  position: relative;
-  top: -30px;
-  right: 20px;
+width: 6px;
+height: 6px;
+border-top: 2px solid rgba(95, 6, 73, 0.33);
+border-right: 2px solid rgba(0, 0, 0, 0.33);
+float: right;
+position: relative;
+top: -30px;
+right: 20px;
 }
 
 
- .faq input[type="checkbox"]:checked + label {
-  display: block;
-  height: 150px;
+.faq input[type="checkbox"]:checked + label {
+display: block;
+height: 150px;
 }
 
 
@@ -248,21 +246,32 @@ padding: 0%;
 /*FOOTER*/
 footer{
     background-color: #CFA6AA;
-    margin-top: 3%;
-    padding: 3rem;
+    margin-top: 2%;
+    padding: 2rem;
     
 }
+
 /*CAJA DE LA IZQUIERDA*/
 .caja_izquierda{
     color: white;
-    padding: 1%;
-    float: left; /* Coloca el texto a la derecha */
-    margin-left: 20px;
+    padding: 0%;
+    float: left; 
+    margin-left: 10px;
 }
 
-.info_pagina{
-    float: left; /* Coloca el texto a la derecha */
+/*CAJA CENTRO*/
+.info_pagina ul{
+    float: left; 
     margin-left: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+.info_pagina ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+
 }
 
 /*CAJA DERECHA*/
@@ -272,4 +281,11 @@ footer{
 }
 .caja_derecha{
     color: white;
+    display: block;
+    text-align: right;
+    justify-content: left;
+    margin-right: 2px;
+
+
+
 }
