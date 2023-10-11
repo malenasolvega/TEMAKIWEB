@@ -1,0 +1,169 @@
+
+/*EDICION BANNER*/
+.portada .portadaimg{
+    width: 100%;
+    height:auto;
+    max-width: 100%;
+}
+
+main{
+    margin: 0 5% 0 5%;
+}
+
+.titulo_portada { 
+    font-size: 28px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Salsa', cursive;
+    color: rgba(99, 56, 27, 1);
+    display: flex;
+    justify-content: center;
+    margin-top: 58%;
+    margin-bottom: 0;
+    padding: 1% 0 0 0;
+}
+
+.info_portada{
+    font-size: 15px;
+    text-align: center;
+    font-family:'Red Hat Display', sans-serif;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.boton_comprar {
+    font-family:'Red Hat Display', sans-serif;
+    font-size: small;
+    padding: 3% 10%;
+    background-color: rgba(39, 71, 55, 1);
+    border: none;
+    border-radius: 3%;
+    color: white;
+} 
+
+
+
+@media (max-width: 768px) {
+    .titulo_portada {
+        margin-top: 40%; /* Ajusta el margen para pantallas más pequeñas */
+    }
+}
+
+/*CATALOGO DE PRODUCTOS*/
+
+.productos{
+    list-style: none;
+}
+.catalogo_productos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: baseline;
+    list-style: none;
+    text-align: center;
+    margin-top: 6%;
+    }
+
+.nombres.productos {
+font-weight: bold;
+margin-bottom: 0;
+padding: 0%;
+}
+
+.florero_nigiri {
+        width: 190px;
+        height: 250px;
+        border-radius: 2%;
+        padding: 0%;
+    }
+.maceta_sashimi {
+        width: 190px;
+        height: 250px;
+        border-radius: 2%;
+        padding: 0%;
+    }
+.florero_hamachi{
+        width: 190px;
+        height: 250px;
+        border-radius: 2%;
+        padding: 0%;
+    }
+.florero_ikura{
+        width: 190px;
+        height: 250px;
+        border-radius: 2%;
+        padding: 0%;
+    }
+
+.nuestros_productos{
+    margin-top: 1.5%;
+    padding: 0;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+
+.catalogo_productos2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: baseline;
+    list-style: none;
+    text-align: center;
+    margin-top: 2%;
+    }
+
+
+/*FEEDBACK*/
+
+.feedback {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.feedback_p {
+    flex: 1; /* Toma todo el espacio disponible en el ancho */
+    margin-right: 10px; /* Espacio entre el texto y el botón */
+    margin-top: 10%;
+    font-size: 1.5rem;
+    margin-right: 20%;
+    justify-content: left;
+    margin-left: 3%;
+}
+
+.boton_feedback {
+    position: absolute;
+    margin-top: 20%;
+    left: 0; /* Alinea el botón a la izquierda del contenedor */
+    margin-left: 3%;
+    background-color: rgba(253, 251, 242, 1);
+    border: none;
+    border-radius: 10%;
+    padding: 1%;
+
+}
+
+
+.feedback-bg{
+    background-color: #f2eaea; /* Color de fondo específico para la sección feedback */
+    padding: 0px; /* Espacio interno para separar el contenido del borde */
+}
+
+.feedback_imagen {
+    max-width: 35%;
+    height: auto;
+    margin-right: 10%;
+}
