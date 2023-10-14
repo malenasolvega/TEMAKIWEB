@@ -5,8 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.fondo {
+* .fondo {
   background-color: rgb(253, 251, 242);
 }
 
@@ -16,16 +15,14 @@ header {
   margin: 0;
   background-color: rgb(253, 251, 242);
 }
-
-.textoinicial {
+header .textoinicial {
   background-color: rgb(39, 71, 55);
   text-align: center;
   color: white;
   padding: 0.3%;
   font-size: small;
 }
-
-.titulos {
+header .titulos {
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -37,7 +34,6 @@ header {
   text-decoration: none;
   font-weight: normal;
 }
-
 header nav h1 {
   font-size: 20px;
   color: white;
@@ -45,13 +41,11 @@ header nav h1 {
   margin: 20px;
   padding: 0;
 }
-
-header nav ul a {
+header ul a {
   text-decoration: none;
   color: rgb(99, 56, 27);
 }
-
-.portadaimg {
+header .portadaimg {
   position: absolute;
   top: 0;
   left: 0;
@@ -60,53 +54,48 @@ header nav ul a {
   object-fit: cover;
   z-index: -1;
 }
-
-.foto_producto {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  max-width: 100%;
-}
-
 @media (max-width: 768px) {
-  header nav ul {
+  header header nav ul {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
     margin-right: 0;
   }
-  header nav h1 {
-    margin: 10px;
-  }
 }
+header nav h1 {
+  margin: 10px;
+}
+
+.foto_producto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: auto;
+  max-width: 100%;
+}
+
 /*FOOTER*/
 footer {
   background-color: rgb(39, 71, 55);
   margin-top: 2%;
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
-  justify-content: space-between; /* Espacio entre las cajas izquierda, centro y derecha */
-  padding: 20px; /* Espacio interior alrededor del footer */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
-
-.caja_izquierda,
-.info_pagina,
-.caja_derecha {
+footer .caja_izquierda,
+footer .info_pagina,
+footer .caja_derecha {
   flex: 1; /* Distribuye el espacio disponible igualmente entre las cajas */
   padding: 10px; /* Espacio interior en cada caja */
 }
-
-/*CAJA DE LA IZQUIERDA*/
-.caja_izquierda {
+footer .caja_izquierda {
   color: white;
   padding: 0%;
   float: left;
   margin-left: 10px;
 }
-
-.boton_email {
+footer .boton_email {
   padding: 0;
   width: 80%;
   height: 30px;
@@ -114,38 +103,30 @@ footer {
   border-radius: 7px;
   width: 100%;
 }
-
-.boton_email::placeholder {
+footer .boton_email::placeholder {
   font-size: small;
   padding: 10px;
 }
-
-/*CAJA CENTRO*/
-.info_pagina ul {
+footer .info_pagina ul {
   float: left;
   margin-left: 150px;
   list-style: none;
   padding: 0;
 }
-
-.info_pagina ul li a {
+footer ul li a {
   list-style: none;
   color: white;
   text-decoration: none;
   text-align: center;
 }
-
-.negrita {
+footer .negrita {
   font-weight: bold;
 }
-
-/*CAJA DERECHA*/
-.iconos {
+footer .iconos {
   width: 10%;
   height: 10%;
 }
-
-.caja_derecha {
+footer .caja_derecha {
   color: white;
   display: block;
   text-align: right;
@@ -285,8 +266,7 @@ main {
   margin-left: 0;
   margin-right: 0;
 }
-
-.feedback_p {
+.feedback .feedback_p {
   flex: 1; /* Toma todo el espacio disponible en el ancho */
   margin-right: 10px; /* Espacio entre el texto y el botón */
   margin-top: 10%;
@@ -295,8 +275,7 @@ main {
   justify-content: left;
   margin-left: 3%;
 }
-
-.boton_feedback {
+.feedback .boton_feedback {
   position: absolute;
   margin-top: 20%;
   left: 0; /* Alinea el botón a la izquierda del contenedor */
@@ -306,16 +285,15 @@ main {
   border-radius: 10%;
   padding: 1%;
 }
+.feedback .feedback_imagen {
+  max-width: 35%;
+  height: auto;
+  margin-right: 10%;
+}
 
 .feedback-bg {
   background-color: #f2eaea; /* Color de fondo específico para la sección feedback */
   padding: 0px; /* Espacio interno para separar el contenido del borde */
-}
-
-.feedback_imagen {
-  max-width: 35%;
-  height: auto;
-  margin-right: 10%;
 }
 
 /*NOSOTROS*/
@@ -364,8 +342,7 @@ main {
   padding: 20px;
   box-sizing: border-box;
 }
-
-.faq-heading {
+.faq .faq-heading {
   font-family: Lato;
   font-weight: 400;
   font-size: 16px;
@@ -373,7 +350,6 @@ main {
   color: #333;
   margin-top: 12px;
 }
-
 .faq label {
   display: block;
   position: relative;
@@ -383,11 +359,9 @@ main {
   padding-top: 1px;
   border-bottom: 1px solid #E1E1E1;
 }
-
 .faq input[type=checkbox] {
   display: none;
 }
-
 .faq .faq-arrow {
   width: 6px;
   height: 6px;
@@ -398,13 +372,11 @@ main {
   top: -30px;
   right: 20px;
 }
-
 .faq input[type=checkbox]:checked + label {
   display: block;
   height: auto;
 }
-
-.faq-text {
+.faq .faq-text {
   font-family: lato;
   font-weight: 400;
   color: #474747;
