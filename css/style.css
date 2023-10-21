@@ -437,12 +437,49 @@ main {
   resize: none;
 }
 
+.color-fondo {
+  background-color: rgb(253, 251, 242);
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+}
+
 /*FAQ*/
 .color-fondo {
   background-color: rgb(253, 251, 242);
   padding: 0;
   margin: 0;
   margin-top: 0;
+}
+
+.texto_ayuda {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(99, 56, 27);
+}
+.texto_ayuda .titulo_informativo {
+  font-size: 60px;
+  margin-top: 8%;
+  font-family: "Lobster Two", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Prata", serif;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Salsa", cursive;
+  font-family: "Young Serif", serif;
+}
+.texto_ayuda .texto_informativo {
+  padding: 1%;
+  color: rgb(99, 56, 27);
+}
+.texto_ayuda .contenido_plegable {
+  font-weight: 15%;
+  font-size: small;
+  text-align: center;
+  padding: 0;
+  margin-top: 8%;
+  margin-bottom: 0;
+  color: rgb(99, 56, 27);
 }
 
 .faq {
@@ -452,18 +489,21 @@ main {
   background: white;
   border-radius: 15px;
   position: relative;
-  border: 1px solid #E1E1E1;
-  margin-top: 50px;
+  border: none;
+  margin-top: 20px;
   resize: none;
   padding: 20px;
   box-sizing: border-box;
+  background-color: rgb(253, 251, 242);
+  color: rgb(99, 56, 27);
 }
 .faq .faq-heading {
   font-family: Lato;
   font-weight: 400;
   font-size: 16px;
   text-indent: 20px;
-  color: #333;
+  color: rgb(99, 56, 27);
+  font-weight: bold;
   margin-top: 12px;
 }
 .faq label {
@@ -473,7 +513,7 @@ main {
   cursor: pointer;
   height: 56px;
   padding-top: 1px;
-  border-bottom: 1px solid #E1E1E1;
+  border-bottom: 0.5px solid rgb(148, 83, 40);
 }
 .faq input[type=checkbox] {
   display: none;
@@ -481,8 +521,8 @@ main {
 .faq .faq-arrow {
   width: 6px;
   height: 6px;
-  border-top: 2px solid rgba(95, 6, 73, 0.33);
-  border-right: 2px solid rgba(0, 0, 0, 0.33);
+  border-top: 2px solid rgba(167, 54, 138, 0.685);
+  border-right: 2px solid rgba(167, 54, 138, 0.685);
   float: right;
   position: relative;
   top: -30px;
@@ -495,7 +535,7 @@ main {
 .faq .faq-text {
   font-family: lato;
   font-weight: 400;
-  color: #474747;
+  color: rgb(99, 56, 27);
   width: 100%;
   padding-left: 20px;
   margin-bottom: 30px;
