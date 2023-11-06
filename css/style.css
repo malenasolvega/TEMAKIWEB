@@ -413,10 +413,13 @@ main {
   margin-bottom: 5%;
 }
 .container .card-body {
+  background-color: rgb(253, 251, 242);
   text-align: left;
+  color: rgb(99, 56, 27);
 }
 .container text {
   font-size: 16px;
+  color: rgb(99, 56, 27);
 }
 .container title {
   font-size: 40px;
@@ -429,6 +432,17 @@ main {
 .container .img-nosotros {
   width: 90%;
   height: 100%;
+  background-color: rgb(253, 251, 242);
+}
+.container .img-nosotros2 {
+  width: 90%;
+  height: 100%;
+}
+.container .col-md-4 {
+  background-color: rgb(253, 251, 242);
+}
+.container .col-md-8 {
+  background-color: rgb(253, 251, 242);
 }
 
 /* CONTACTO */
